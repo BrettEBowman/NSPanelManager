@@ -6,6 +6,9 @@ slug: "nspanelmanager"
 url: "https://nspanelmanager.com"
 webui: http://[HOST]:[PORT:8000]/
 panel_icon: mdi:fit-to-screen
+ingress: true
+ingress_port: 8000
+ingress_entry: /
 ports:
   8000/tcp: 8000
   8001/tcp: 8001
